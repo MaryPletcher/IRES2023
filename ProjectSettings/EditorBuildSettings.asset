@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/FullVR.unity
     guid: 9ea7f571ceff5e942920115cd7b298c0
   - enabled: 0
-    path: Assets/Scenes/PassthroughAR.unity
+    path: Assets/Scenes/oldScenes/OLDPassthroughAR.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
     path: Assets/Scenes/distanceGrabNoTracking.unity
@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/HandInteractableUI.unity
     guid: 261da7a92ec7a394dbcc76bac7e31003
   - enabled: 1
-    path: Assets/Scenes/PassthroughAR2.unity
+    path: Assets/Scenes/PassthroughAR.unity
     guid: 2f099d9638d12e74cbf77e5939dd2c50
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 06709a2a177bd5c418faa429ffdc1ce6, type: 2}
