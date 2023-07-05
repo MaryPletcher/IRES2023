@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/VR.unity
     guid: 4f21265edd4ebbb43b5156a6d075ce5f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PassthroughAR.unity
     guid: 2f099d9638d12e74cbf77e5939dd2c50
   - enabled: 0
@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/HandInteractableUI.unity
     guid: 261da7a92ec7a394dbcc76bac7e31003
+  - enabled: 1
+    path: Assets/Scenes/360Video.unity
+    guid: dfd4659a2278b4fc7b0d782cf8946bfc
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 06709a2a177bd5c418faa429ffdc1ce6, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e55be2ec510c08a468f7cd7d9883cded, type: 2}
