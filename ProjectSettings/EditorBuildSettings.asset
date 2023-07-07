@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/360Video.unity
-    guid: dfd4659a2278b4fc7b0d782cf8946bfc
-  - enabled: 0
     path: Assets/Scenes/VR.unity
     guid: 4f21265edd4ebbb43b5156a6d075ce5f
   - enabled: 1
