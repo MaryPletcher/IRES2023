@@ -8,6 +8,7 @@ public class UIElementToggler : MonoBehaviour
     public GameObject CHAT4; // Reference to the UI element you want to toggle
     public GameObject CHAT5; // Reference to the UI element you want to toggle
     public GameObject CHAT6;
+    public GameObject CHAT7;
 
     public float time1 = 5f; // The time interval in seconds for toggling the UI element
     public float time2 = 10f;
@@ -15,6 +16,8 @@ public class UIElementToggler : MonoBehaviour
     public float time4 = 20f; // The time interval in seconds for toggling the UI element
     public float time5 = 25f;
     public float time6 = 30f;
+
+    public float time7 = 35f;
 
     private float timer;
 
@@ -74,6 +77,13 @@ public class UIElementToggler : MonoBehaviour
         {
             CHAT5.SetActive(false);
             CHAT6.SetActive(true);
+            
+        }
+
+         else if (timer > time6 && timer <= time7)
+        {
+            CHAT6.SetActive(false);
+            CHAT7.SetActive(true);
             
         }
         
